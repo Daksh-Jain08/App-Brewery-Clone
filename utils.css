@@ -1,0 +1,164 @@
+.container{
+    width: 86vw;
+    padding: 0 6.5vw;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid{
+    display: grid;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.align-start{
+    align-items: start;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.list-style-none{
+    list-style: none;
+}
+
+.no-decor{
+    text-decoration: none;
+}
+
+.section1{
+    padding-top: 10px;
+    background-color: #f7f7f7;
+    height: 100%
+}
+
+.section2{
+    min-height: 100%;
+}
+
+.relative{
+    position: relative;
+}
+
+.section-heading{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    line-height: 40px;
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.section3{
+    background-color: #f7f7f7;
+    padding-bottom: 50px;
+}
+
+.section4-heading{
+    margin-bottom: 50px;
+    padding: 0 30px;
+}
+
+.section4{
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1200px){
+    .section1-text{
+        font-size: 62px;
+    }
+
+    .section3-left{
+        margin-right: 20px;
+    }
+
+    .section3{
+        padding-left: 5px;
+    }
+}
+
+@media (max-width: 992px){
+
+    .section1, .companies, .section3-content, .testimonials, .section5{
+        flex-direction: column;
+    }
+
+    .section1-right, .section1-left{
+        width: 90vw;
+    }
+
+    .section1-text{
+        text-align: center;
+    }
+
+    .section1-left h6{
+        padding: 0;
+        text-align: center;
+    }
+
+    .color-bar{
+        justify-content: center;
+    }
+
+    .section3-left{
+        width: 90%;
+        padding: auto;
+    }
+
+    .companies{
+        min-height: 700px;
+    }
+
+    .companies-logo>img{
+        height: 61px;
+    }
+
+    .testimonials{
+        align-items: center;
+    }
+
+    .comment-box{
+        width: 100%;
+    }
+
+    #first-comment{
+        margin-left: 0;
+    }
+    
+    #last-comment{
+        margin-right: 0;
+    }
+
+    .section5{
+        background-size: 200% 100%;
+    }
+
+    .section5-content{
+        margin-left: 0;
+    }
+
+    .section5 .left-image{
+        width: 520px;
+        height: 500px;
+        padding: auto;
+    }
+}
